@@ -1,0 +1,59 @@
+
+
+.container-fluid{
+	background-color:#333333;/*#333333*/
+}
+
+
+
+#logo-container{
+	background-color: #333333;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	width:100%;
+}
+
+#logo-container img{
+	/*****/
+}
+
+#photo-gallery{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+#photo-gallery h3{
+	color:#333333;
+	font-style: italic;
+	font-weight: bold;
+	border:3px solid #E3B000;
+	padding:8px;
+	border-radius:500px;
+	background-color: #E3B000;
+	opacity: .8;
+	line-height: 15px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	/*transform: rotate(4deg);*/
+}
+
+#image-container{
+	margin-top: 5%;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#squad-img{
+	margin-top: 12px;
+	min-height: 300px;
+	position:relative;
+}
+
+#squad-img:hover{
+	
+	transform:translateY(-10px);
+}
+
+
